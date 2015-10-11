@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body ng-app="principal">
+<div ng-controller="ctrlPrincipal">
+    INCIDENCIAS
+    <input type="text" ng-model="nombre">
+    <input type="button" class="btn btn-danger" value="guardar" ng-click="checar()">
+    {{nombre}}
+</div>
+
+<script src="node_modules/angular/angular.js"></script>
+<script src="js/principal.js"></script>
+</body>
+</html>
